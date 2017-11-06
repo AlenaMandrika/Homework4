@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Макет</title>
-    <link rel="stylesheet" href="src/style.css" >
+    <link rel="stylesheet" href="./src/style.css" >
 </head>
 <body>
     <header>
@@ -12,8 +12,17 @@
         </div>
     </header>
     <nav class="menu box-title">
-        <ul>
-            <li><a href="#">home</a></li>
+        <div class="home">
+            <button class="home">home</button>
+            <div class="home-content">
+                <a href="#">about us</a>
+                <a href="#">researchers</a>
+                <a href="#">services</a>
+                <a href="#">contacts</a>
+            </div>
+        </div>
+        <ul class="my-list">
+            <li><a class="title-link" href="#">home</a></li>
             <li><a href="#">about us</a></li>
             <li><a href="#">researchers</a></li>
             <li><a href="#">services</a></li>
@@ -27,7 +36,7 @@
             </div>
             <div class="main-content">
                 <div class="main-title">
-                    <h1 class="title">Welcome to our <span> Lab</span></h1>
+                    <h1 class="title">Welcome to our <span>Lab</span></h1>
                 </div>
                 <div class="title-text">
                     <p class="text"><strong>Ea consetetur sadi consetetur</strong><br>
@@ -42,14 +51,14 @@
         <section class="info-container">
             <div class="my-container">
                 <h2 class="box-title"><a href="#">About our Lab</a></h2>
-                <p><strong>Ea consetetur sadi consetetur</strong><br>
+                <p class="text"><strong>Ea consetetur sadi consetetur</strong><br>
                     consetetur pscing elitr, sed diam lorem<br>
                     nonumy eirmod<br>
                 </p>
-                <p>  Erat, sed diam voluptua. Dolores et ea<br>
+                <p class="text">  Erat, sed diam voluptua. Dolores et ea<br>
                     consetetur sadi pscing elitrn onumy eirmod<br>
                 </p>
-                <p>  Erat, sed diam voluptua. Dolores et ea<br>
+                <p class="text">  Erat, sed diam voluptua. Dolores et ea<br>
                     consetetur sadi pscing elitrn onumy eirmod<br>
                     Erat, sed diam voluptua. Erat, sed diam<br>
                     voluptua. Dolores et ea consetetur sadi pscing<br>
@@ -64,7 +73,7 @@
                     </div>
                     <div>
                         <h2 class="box-title"><a href="#">Researchers</a></h2>
-                        <p>
+                        <p class="text">
                             <strong>Ea consetetur sadi consetetur  consetetur</strong><br>
                             pscing elitr, sed diam lorem nonumy eirmod<br>
                             Erat, sed diam voluptua. Dolores et ea<br>
@@ -79,7 +88,7 @@
                     </div>
                     <div>
                         <h2 class="box-title"><a href="#">Services</a></h2>
-                        <p>
+                        <p class="text">
                             <strong>Lorem sadi consetetur  consetetur</strong><br>
                             pscing elitr, sed diam lorem nonumy<br>
                             eirmod Erat, sed diam voluptua. Dolores et ea<br>
